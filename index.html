@@ -3,16 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Renuka Bista - Portfolio</title>
+  <title>Renuka Bista - Personal Profile</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <header>
     <h1 id="main-title">Renuka Bista's Portfolio</h1>
-    <p>Computer science student and web development enthusiast.</p>
+    <p>Personal Profile Page with Flexbox Layout</p>
   </header>
 
+  <!-- Navigation Menu -->
   <nav class="nav-menu" aria-label="Main navigation">
     <a href="#about">About Me</a>
     <a href="#profile">Profile</a>
@@ -20,18 +21,25 @@
   </nav>
 
   <main>
+    <!-- Content Wrapper Layout -->
     <div class="content-wrapper">
-    <section class="card" id="about">
-      <h2>Introduction</h2>
-      <p>Hello! I'm Renuka Bista, a computer science student at Seoul Theological University.</p>
-      <p>I enjoy coding, outdoor hiking, dancing in cultural events, and exploring emerging technologies.</p>
-    </section>
-    <section class="card" id="profile">
-      <h2>My Profile</h2>
-      <img src="profile.jpg" alt="Renuka Bista profile photo" style="max-width: 100%; height: auto;">
-      <p>Passionate about web development, multi-agent systems, physical AI, and humanoid robotics.</p>
-    </section>
+      
+      <section class="card" id="about">
+        <h2>Introduction</h2>
+        <p>Hello! I am Renuka Bista, I am 20yrs old and originally form Nepal. I am building my personal portfolio with HTML and CSS.</p>
+        <p>Press F12 to inspect the cards and their spacing in the Computed panel.</p>
+      </section>
+
+      <section class="card" id="profile">
+        <h2>My Profile</h2>
+        <img src="profile.jpg" alt="Renuka Bista profile photo" class="profile-img">
+        <p><strong>Name:</strong> Renuka Bista</p>
+        <p><strong>Email:</strong> <a href="mailto:dipakbhattarai511@gmail.com">dipakbhattarai511@gmail.com</a></p>
+        <p>I am a coding beginner enthusiastic about web development, building responsive layouts, and learning modern tech skills.</p>
+      </section>
+
     </div>
+
     <section id="contact">
       <h2>Leave a Message</h2>
       <form>
@@ -46,7 +54,8 @@
       <p>This form demonstrates HTML layout; it does not send messages.</p>
     </section>
   </main>
-  <footer><p>Renuka Bista - Cumulative Web Portfolio</p></footer>
+  
+  <footer><p>&copy; 2026 Renuka Bista | My cumulative web portfolio</p></footer>
 
   <p><a href="flexbox-simulator.html">Open the supplementary Flexbox simulator</a></p>
   <script src="script.js"></script>
