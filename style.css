@@ -1,0 +1,40 @@
+/* HTML, box model, and Flexbox baseline from the first half of the course. */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e9ecef;
+  margin: 0;
+  padding: 0;
+  color: #343a40;
+}
+
+header {
+  background-color: #17a2b8;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+* { box-sizing: border-box; }
+.nav-menu { display: flex; justify-content: center; gap: 1rem; padding: 1rem; }
+.content-wrapper { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; }
+.content-wrapper .card { flex: 1; min-width: 280px; }
+#contact { margin-top: 2rem; }
+label { display: block; margin-top: 0.75rem; }
+input, textarea { max-width: 100%; font: inherit; }
+button { padding: 10px 20px; font: inherit; cursor: pointer; }
+footer { text-align: center; padding: 1rem; }
